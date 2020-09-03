@@ -1,9 +1,9 @@
 import React from "react";
 
-import Profile from "./profile/profile";
-import Statistics from "./statistics/stats";
-import FriendList from "./friends/friend-list";
-import TransactionHistory from "./transactions/transactions";
+import Profile from "./profile/Profile";
+import Statistics from "./statistics/Stats";
+import FriendList from "./friends/Friend-list";
+import TransactionHistory from "./transactions/Transactions";
 
 import statistics from "../assets/statistical-data.json";
 import friends from "../assets/friends.json";

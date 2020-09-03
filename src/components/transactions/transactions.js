@@ -1,12 +1,13 @@
 import React from "react";
-import TableHead from "./table-head";
-import TableRow from "./table-row";
+import TableHead from "./Table-head";
+import TableRow from "./Table-row";
+import styles from "./Transactions.module.css";
 
 function TransactionHistory({ items }) {
   return (
-    <table className="transaction-history">
+    <table className={styles.transactionHistory}>
       <TableHead />
-      <tbody>
+      <tbody className={styles.tableBody}>
         {items.map((el) => {
           return <TableRow key={el.id} {...el} />;
         })}
